@@ -1,0 +1,253 @@
+body{
+    margin: 0;
+}
+.hero{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+}
+.korobka{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+    background-color: #778da9;
+    font-size: 30px;
+    color: white;
+    border-radius: 10px;
+    padding: 7px 15px;
+    display: inline-block;
+}
+h1{
+    margin: 0;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+h3{
+    margin: 0;
+    font-size: 30px;
+}
+.aboutme{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+}
+.myskills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    height: 80vh;
+}
+.skills {
+    grid-column: 1 / span 2;
+    margin-top: 50px;
+}
+.half {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+.row0 {
+    display: flex;
+    align-items: center;
+}
+.row0 h2 {
+    margin-right: 10px;
+    width: 150px; 
+}
+.row1 {
+    display: flex;
+}
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:#778da9 ;
+    margin-right: 5px;
+}
+.circle.filled {
+    background-color: black;
+}
+.myprojects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.project-details {
+    width: 50%;
+    text-align: center;
+}
+.project-details h2,
+.project-details p,
+.project-details a {
+    margin: 0;
+}
+
+.myblog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+.followme{
+    display: flex;
+    background-color: white;
+    color: black;
+    height: 20vh;
+}
+.textcenter{
+    text-align: center;
+}
+
+.w50{
+    width: 30%;
+}
+input{
+    display: block;
+    margin: 30px 0;
+    width: 100%;
+    height: 30px;
+    font-size: 30px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: 0;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+#contactme{
+    padding: 50px;
+    color:white;
+    background-color: black;
+    position: relative;
+    z-index: 3;
+}
+#myprojects{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#aboutme{
+    background-color: black;
+    color: white;
+    padding: 50px;
+    position: relative;
+    z-index: 3;
+}
+.m50{
+    margin: 50px;
+}
+
+
+/* Все про меню */
+.logo{
+    font-size: 34px;
+    text-decoration: none;
+    margin: 0 60px;
+    font-weight: 600;   
+    color: white;
+    
+     
+}
+.link{
+    font-size: 32px;
+    text-decoration: none;
+    margin: 0 20px;
+    color: white;
+   
+}
+nav{
+    margin: 0px 0px 20px 0px;
+    width: 100%;
+    color: #C5FF95;
+    background-color: #778da9;
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+.right{
+    position: absolute;
+    right: 80px;
+}
+.btn{
+    padding: 10px 30px;
+    background-color: black;
+    border-radius: 0%;
+    color: white;
+}
+
+
+#myblog{
+    padding: 150px 0;
+    text-align: center;
+}
+.card{
+    width: 500px;
+    background-color: black;
+    padding: 50px ;
+    border-radius: 30px;
+}
+.w100{
+    width: 100%;
+}
+.cardbtn{
+    text-decoration: none;
+    width: 500px;
+    display: block;
+    margin: 0 150px;
+}
+.dflex{
+    display: flex;
+}
+.w80{
+    width: 80%;
+}
+.chiutnizhe{
+    margin-top: 450px;
+}
+#myprojects{
+    padding: 150px 0;
+
+}
+
+.piatno{
+    z-index: 1;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    top: 800px;
+    left: 75%;
+    box-shadow: 0px 0px 250px 250px #778da9;
+}
+
+.center{ 
+    display: flex; 
+    justify-content: center; 
+}
+.media{ 
+    width: 100px; 
+} 
+.small{ 
+    height: 100px; 
+}
